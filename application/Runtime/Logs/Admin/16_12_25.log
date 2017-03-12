@@ -1,0 +1,21 @@
+[ 2016-12-25T18:04:01+08:00 ] 127.0.0.1 /Admin/Doc/addOk
+ERR: 非法操作:addOk
+
+[ 2016-12-25T18:04:28+08:00 ] 127.0.0.1 /Admin/Doc/addOk
+ERR: 非法操作:addOk
+
+[ 2016-12-25T18:04:48+08:00 ] 127.0.0.1 /Admin/Doc/addOk
+ERR: 非法操作:addOk
+
+[ 2016-12-25T19:22:13+08:00 ] 127.0.0.1 /Admin/Doc/addOk
+ERR: 非法操作:addOk
+
+[ 2016-12-25T21:45:57+08:00 ] 127.0.0.1 /Index/add
+ERR: 非法操作:add
+
+[ 2016-12-25T22:32:08+08:00 ] 127.0.0.1 /thinkoa/index.php/Admin/Doc/getContent?id=&_=1482676328854
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+ERR: 无法加载控制器:Thinkoa
+

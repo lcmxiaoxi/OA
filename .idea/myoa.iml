@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://F:/aaa" />
+    <content url="file://F:/abc" />
+    <content url="file://F:/blog" />
+    <content url="file://$MODULE_DIR$" />
+    <content url="file://F:/www/api54" />
+    <content url="file://F:/xiaoxi" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,12 @@
+[ 2016-12-21T18:56:26+08:00 ] 127.0.0.1 /Home/Dept/index
+ERR: 无法加载控制器:Dept
+
+[ 2016-12-21T18:56:41+08:00 ] 127.0.0.1 /Home/Student/index
+ERR: 非法操作:index
+
+[ 2016-12-21T18:56:43+08:00 ] 127.0.0.1 /Home/Student/index
+ERR: 非法操作:index
+
+[ 2016-12-21T18:57:18+08:00 ] 127.0.0.1 /Home/Student/addOk.html
+ERR: 非法操作:addOk
+

@@ -1,0 +1,4 @@
+[ 2016-12-22T11:08:43+08:00 ] 127.0.0.1 /Home/Student/table_test
+ERR: 1054:Unknown column 's.no' in 'field list'
+ [ SQL语句 ] : SELECT s.no,s.sname,s.sage,s.ssex,d.name FROM tp_student as s,tp_department as d WHERE ( s.sdept=d.id and sage>18 ) 
+

@@ -1,0 +1,14 @@
+<foreach name="user_list" item="vo">
+        	<tr>
+            	<td class="num">{$vo.user_id}</th>
+                <td class="name">{$vo.user_name}</th>
+                <td class="nickname">{$vo.user_nickname}</th>
+                <td class="dept">{$vo.user_dept}</th>
+                <td class="sex">{$vo.user_sex}</th>
+                <td class="birthday">{$vo.user_birthday}</th>
+                <th class="tel">{$vo.user_tel}</th>
+                <th class="email">{$vo.user_email}</th>
+                <th class="ctime">{$vo.user_ctime}</th>
+                <th class="operate">操作</th>
+            </tr>
+            </foreach>

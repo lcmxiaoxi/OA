@@ -1,0 +1,370 @@
+[ 2016-12-26T18:02:05+08:00 ] 127.0.0.1 /Admin/Doc/addOk
+ERR: 1062:Duplicate entry '' for key 'doc_title'
+ [ SQL语句 ] : INSERT INTO `oa_doc` (`doc_title`,`doc_content`,`doc_author`,`doc_ctime`) VALUES ('','','1','2016-12-26 18:02:05')
+
+[ 2016-12-26T18:03:23+08:00 ] 127.0.0.1 /Admin/Doc/addOk
+ERR: 1062:Duplicate entry '' for key 'doc_title'
+ [ SQL语句 ] : INSERT INTO `oa_doc` (`doc_title`,`doc_content`,`doc_author`,`doc_ctime`) VALUES ('','','1','2016-12-26 18:03:23')
+
+[ 2016-12-26T18:04:28+08:00 ] 127.0.0.1 /Admin/Doc/addOk
+ERR: 1062:Duplicate entry '' for key 'doc_title'
+ [ SQL语句 ] : INSERT INTO `oa_doc` (`doc_title`,`doc_content`,`doc_author`,`doc_ctime`) VALUES ('','','1','2016-12-26 18:04:28')
+
+[ 2016-12-26T18:05:38+08:00 ] 127.0.0.1 /Admin/Doc/addOk
+ERR: 1062:Duplicate entry '' for key 'doc_title'
+ [ SQL语句 ] : INSERT INTO `oa_doc` (`doc_title`,`doc_content`,`doc_author`,`doc_ctime`) VALUES ('','','1','2016-12-26 18:05:38')
+
+[ 2016-12-26T18:11:01+08:00 ] 127.0.0.1 /Admin/Doc/addOk
+ERR: 1062:Duplicate entry '' for key 'doc_title'
+ [ SQL语句 ] : INSERT INTO `oa_doc` (`doc_title`,`doc_content`,`doc_author`,`doc_ctime`) VALUES ('','','1','2016-12-26 18:11:01')
+
+[ 2016-12-26T18:11:37+08:00 ] 127.0.0.1 /Admin/Doc/addOk
+ERR: 1062:Duplicate entry '' for key 'doc_title'
+ [ SQL语句 ] : INSERT INTO `oa_doc` (`doc_title`,`doc_content`,`doc_author`,`doc_ctime`) VALUES ('','','1','2016-12-26 18:11:37')
+
+[ 2016-12-26T18:12:07+08:00 ] 127.0.0.1 /Admin/Doc/addOk
+ERR: 1062:Duplicate entry '' for key 'doc_title'
+ [ SQL语句 ] : INSERT INTO `oa_doc` (`doc_title`,`doc_content`,`doc_author`,`doc_ctime`) VALUES ('','','1','2016-12-26 18:12:07')
+
+[ 2016-12-26T18:13:22+08:00 ] 127.0.0.1 /Admin/Doc/addOk
+ERR: 1062:Duplicate entry '' for key 'doc_title'
+ [ SQL语句 ] : INSERT INTO `oa_doc` (`doc_title`,`doc_content`,`doc_author`,`doc_ctime`) VALUES ('','','1','2016-12-26 18:13:22')
+
+[ 2016-12-26T18:14:04+08:00 ] 127.0.0.1 /Admin/Doc/addOk
+ERR: 1062:Duplicate entry '' for key 'doc_title'
+ [ SQL语句 ] : INSERT INTO `oa_doc` (`doc_title`,`doc_content`,`doc_author`,`doc_ctime`) VALUES ('','','1','2016-12-26 18:14:04')
+
+[ 2016-12-26T20:11:42+08:00 ] 127.0.0.1 /Doc/show.html?id=1&_=0.9701141313120475
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002004s ]
+
+[ 2016-12-26T20:12:26+08:00 ] 127.0.0.1 /Doc/show.html?id=1&_=0.17892613507579047
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-12-26T20:12:31+08:00 ] 127.0.0.1 /Doc/show.html?id=1&_=0.43809085582403573
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2016-12-26T20:13:07+08:00 ] 127.0.0.1 /Doc/show.html?id=3&_=0.9452582201482735
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '3' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-12-26T20:13:53+08:00 ] 127.0.0.1 /Doc/show.html?id=2&_=0.9315867721840294
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '2' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-12-26T20:13:58+08:00 ] 127.0.0.1 /Doc/show.html?id=1&_=0.4088658879881458
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2016-12-26T20:14:00+08:00 ] 127.0.0.1 /Doc/show.html?id=3&_=0.6485769751992382
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '3' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2016-12-26T20:14:05+08:00 ] 127.0.0.1 /Doc/show.html?id=4&_=0.8910790863121564
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002489s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '4' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2016-12-26T20:14:09+08:00 ] 127.0.0.1 /Doc/show.html?id=5&_=0.250910107262984
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '5' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2016-12-26T20:14:42+08:00 ] 127.0.0.1 /Doc/show.html?id=2&_=0.7627297910137587
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '2' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-12-26T20:14:45+08:00 ] 127.0.0.1 /Doc/show.html?id=3&_=0.010525733166528828
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '3' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-12-26T20:14:47+08:00 ] 127.0.0.1 /Doc/show.html?id=4&_=0.9555110513231949
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '4' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-12-26T20:14:51+08:00 ] 127.0.0.1 /Doc/show.html?id=1&_=0.08756830629592771
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-12-26T20:17:11+08:00 ] 127.0.0.1 /Doc/show.html?id=1&_=0.8836369732999949
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2016-12-26T20:17:13+08:00 ] 127.0.0.1 /Doc/show.html?id=2&_=0.4635276402728231
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '2' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2016-12-26T20:17:15+08:00 ] 127.0.0.1 /Doc/show.html?id=3&_=0.4087232752727803
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '3' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-12-26T20:17:17+08:00 ] 127.0.0.1 /Doc/show.html?id=4&_=0.3429062634169108
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '4' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2016-12-26T20:17:19+08:00 ] 127.0.0.1 /Doc/show.html?id=5&_=0.5958404546101
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '5' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2016-12-26T20:21:24+08:00 ] 127.0.0.1 /Doc/show.html?id=1&_=0.19648809821859115
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2016-12-26T20:21:27+08:00 ] 127.0.0.1 /Doc/show.html?id=2&_=0.5339607153816328
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '2' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2016-12-26T20:21:30+08:00 ] 127.0.0.1 /Doc/show.html?id=4&_=0.6916821209098017
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '4' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001407s ]
+
+[ 2016-12-26T20:21:32+08:00 ] 127.0.0.1 /Doc/show.html?id=3&_=0.2809188525424927
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '3' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2016-12-26T20:27:34+08:00 ] 127.0.0.1 /Doc/show.html?id=2&_=0.6400685103986228
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '2' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-12-26T20:27:46+08:00 ] 127.0.0.1 /Doc/show.html?id=1&_=0.5655818045624392
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001468s ]
+
+[ 2016-12-26T20:27:50+08:00 ] 127.0.0.1 /Doc/show.html?id=1&_=0.9716933431929726
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2016-12-26T20:28:22+08:00 ] 127.0.0.1 /Doc/show.html?id=1&_=0.21170981287105528
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2016-12-26T20:28:24+08:00 ] 127.0.0.1 /Doc/show.html?id=2&_=0.13735953818382618
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '2' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-12-26T20:31:27+08:00 ] 127.0.0.1 /Admin/Doc/addOk
+ERR: 1062:Duplicate entry '' for key 'doc_title'
+ [ SQL语句 ] : INSERT INTO `oa_doc` (`doc_title`,`doc_content`,`doc_author`,`doc_ctime`) VALUES ('','','1','2016-12-26 20:31:27')
+
+[ 2016-12-26T20:32:01+08:00 ] 127.0.0.1 /Doc/show.html?id=6&_=0.010589803656867458
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '6' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2016-12-26T20:32:06+08:00 ] 127.0.0.1 /Doc/show.html?id=6&_=0.5968430645456526
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '6' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2016-12-26T20:32:29+08:00 ] 127.0.0.1 /Doc/show.html?id=6&_=0.60948065332611
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '6' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-12-26T20:34:23+08:00 ] 127.0.0.1 /Admin/Doc/addOk
+ERR: 1062:Duplicate entry '' for key 'doc_title'
+ [ SQL语句 ] : INSERT INTO `oa_doc` (`doc_title`,`doc_content`,`doc_author`,`doc_ctime`) VALUES ('','','1','2016-12-26 20:34:23')
+
+[ 2016-12-26T21:03:19+08:00 ] 127.0.0.1 /Doc/show.html?id=1&_=0.6957425303481949
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002072s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2016-12-26T21:03:25+08:00 ] 127.0.0.1 /Doc/show.html?id=2&_=0.8995480538895806
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() F:\myoa\application\Admin\Controller\DocController.class.php 第 4 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '2' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2016-12-26T22:54:28+08:00 ] 127.0.0.1 /Knowledge/add
+ERR: 无法加载控制器:Knowledge
+
+[ 2016-12-26T23:41:45+08:00 ] 127.0.0.1 /Knowledge/
+ERR: 非法操作:login
+
